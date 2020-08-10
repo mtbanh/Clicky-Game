@@ -33,6 +33,43 @@ class App extends Component {
       this.setState({clicked: [...this.state.clicked, id]})
     };
     const newClicked = this.state.images
+    this.shuffled(newClicked)
+  };
+
+  shuffled = newClicked =>{
+    for (i=newClicked.length -1; i>0; i--){
+      const j = Math.floor(Math.random() * (i+1))
+      const temporary = newClicked[i];
+      newClicked[i]= newClicked[j];
+      newClicked[j] = temporary
+    }
+  };
+
+  render(){
+    return(
+      <div>
+        <Navbar 
+        text = {this.state.text}
+        score = {this.state.score}
+        highScore = {this.state.highScore}
+        />
+
+        <div className= "jumbotron text-center">
+          <h1>How well do you know the Simpsons?</h1>
+          <p>Click on a character to start the game. Do not click on the same character more than once. Earn a donut/points for remembering which character you already clicked! </p>
+          <Wrapper>
+            {this.state.images.map(image =>{
+              <Card 
+                id={image.id}
+                key={image.id}
+                image={image.image}
+                clickMe={this.clickMe}
+              />
+            })}
+          </Wrapper>
+        </div>
+      </div>
+    )
   }
 }
 
