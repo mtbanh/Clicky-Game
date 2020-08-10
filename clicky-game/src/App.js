@@ -37,7 +37,7 @@ class App extends Component {
   };
 
   shuffled = newClicked =>{
-    for (i=newClicked.length -1; i>0; i--){
+    for (var i=newClicked.length -1; i>0; i--){
       const j = Math.floor(Math.random() * (i+1))
       const temporary = newClicked[i];
       newClicked[i]= newClicked[j];
