@@ -58,14 +58,14 @@ class App extends Component {
           <h1>How well do you know the Simpsons?</h1>
           <p>Click on a character to start the game. Do not click on the same character more than once. Earn a donut/points for remembering which character you already clicked! </p>
           <Wrapper>
-            {this.state.images.map(image =>{
+            {this.state.images.map(image =>(
               <Card 
                 id={image.id}
                 key={image.id}
                 image={image.image}
                 clickMe={this.clickMe}
               />
-            })}
+            ))}
           </Wrapper>
         </div>
       </div>
