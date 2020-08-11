@@ -5,7 +5,7 @@ This game was created using react and it is a memory game. The objective is to r
 
 ---
 
-![gif demo](clicky-game\src\img\deployed-site.gif)
+![gif demo](.\clicky-game\src\img\deployed-site.gif)
 
 ---
 
