@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron{
+  background-image: url(https://media.pixcove.com/T/5/8/Background-Contextual-Textures-Backgrounds-Donuts--2303.jpg);
+}
+
+h1{
+  color: #424F46;
+  background-color:  #70D1FE ;
+}
+
+p{
+  font-style: bold;
+  background-color: #ABC67D;
+}

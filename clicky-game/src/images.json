@@ -21,7 +21,7 @@
     },
     {
         "id": 6,
-        "image": "https://vignette.wikia.nocookie.net/characters/images/c/cc/Abraham_Simpson.jpeg/revision/latest?cb=20151205195206"
+        "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/a9/Abraham_Simpson.png/revision/latest?cb=20151011181838"
     },
     {
         "id": 7,
@@ -38,6 +38,22 @@
     {
         "id": 10,
         "image": "https://vignette.wikia.nocookie.net/characters/images/8/84/Ned_Flanders.png/revision/latest/scale-to-width-down/200?cb=20171027032055"
+    },
+    {
+        "id": 11,
+        "image": "https://vignette.wikia.nocookie.net/simpsons/images/b/ba/Swsb_character_fact_skinner.png/revision/latest/scale-to-width-down/242?cb=20190616114556"
+    },
+    {
+        "id": 12,
+        "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png/revision/latest/scale-to-width-down/326?cb=20100602062705"
+    },
+    {
+        "id": 13,
+        "image": "https://vignette.wikia.nocookie.net/simpsons/images/7/7d/Apu_Nahasapeemapetilon.png/revision/latest?cb=20171027210822"
+    },
+    {
+        "id": 14,
+        "image": "https://vignette.wikia.nocookie.net/simpsons/images/6/67/Tapped_Out_Unlock_DrHibbert.png/revision/latest?cb=20141120144510"
     }
 
 ]

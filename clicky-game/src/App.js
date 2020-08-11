@@ -12,12 +12,12 @@ class App extends Component {
     score: 0,
     highScore: 0,
     clicked: [],
-    text: "Click Away!"
+    text: "Click for Donuts"
   };
 
   clickMe = id =>{
     if(this.state.clicked.includes(id)){
-      this.setState({text: "Sorry. Try again"})
+      this.setState({text: "D'oh!"})
 
       if(this.state.highScore < this.state.score){
         this.setState({highScore: this.state.score})
@@ -28,7 +28,7 @@ class App extends Component {
     }
 
     else{
-      this.setState({text:"You get another donut!"})
+      this.setState({text:"Mmmmm donuts arrggllhelehhargglehhge"})
       this.setState({score: this.state.score +1})
       this.setState({clicked: [...this.state.clicked, id]})
     };
@@ -55,8 +55,8 @@ class App extends Component {
         />
 
         <div className= "jumbotron text-center">
-          <h1>How well do you know the Simpsons?</h1>
-          <p>Click on a character to start the game. Do not click on the same character more than once. Earn a donut/points for remembering which character you already clicked! </p>
+          <h1>Donuts. Is there anything they can't do?</h1>
+          <p>Click on a character to start the game. Do not click on the same character more than once or GAME OVER! <br></br>Earn a donut for remembering which character you already clicked! </p>
           <Wrapper>
             {this.state.images.map(image =>(
               <Card 
