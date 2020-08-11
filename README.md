@@ -34,7 +34,7 @@ The code snippet belows demonstrate how the pictures are shuffled after every cl
 
 ### Deploy Link
 
-[Live site](https://mtbanh.github.io/Template-Engine)
+[Live site](https://mtbanh.github.io/Clicky-Game/)
 
 ---
 ## Authors 
